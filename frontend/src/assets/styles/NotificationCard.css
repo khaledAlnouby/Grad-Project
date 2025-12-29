@@ -1,0 +1,145 @@
+/* frontend/src/assets/styles/NotificationCard.css */
+.notifications {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.notifications-header {
+    font-size: 24px; /* Control font size here */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; /* Align header to start */
+}
+
+.notifications-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 0; /* Center the card horizontally */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.notification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.notification-header {
+    display: flex;
+    align-items: center;
+}
+
+.notification-details {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.notification-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.notification-message {
+    color: gray;
+}
+
+.notification-date {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.notification-profile-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.notification-profile-button:hover .profile-icon {
+    color: black;
+    transition: background-color 0.2s ease;
+}
+
+.profile-icon {
+    font-size: 1.5em;
+    color: #fdcc04; 
+}
+
+.manage-request-button {
+    color: #fdcc04;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
+}
+
+.manage-request-button:hover {
+    color: black;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.text-before-skill {
+    color: black;
+}
+
+.sender-name {
+    color: #ffdb58;
+}
+
+.skill-name {
+    color: #ffdb58;
+}
+
+.status {
+    color: #ffdb58;
+}
+
+.from {
+    color: black;
+}
+
+.normalText {
+    color: black;
+}
+
+.notification-card-small-profile-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+    position: absolute;
+    top: 70px;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+
+.thing{
+    padding: 10px 400px;
+}

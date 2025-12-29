@@ -1,0 +1,8 @@
+/* frontend/src/assets/styles/SkillSearchPage.css */
+
+.skill-search-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}

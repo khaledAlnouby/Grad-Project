@@ -1,0 +1,54 @@
+/* frontend/src/assets/styles/SkillSearchInput.css */
+
+.search-icon {
+    position: absolute;
+    left: 15px; /* Adjusted for better alignment */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    fill: #666;
+}
+
+.search-bar {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 400px; /* Reduced max-width for better alignment */
+    padding: 10px 10px 10px 35px; /* Ensure input text doesn't overlap with icon */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px; /* Margin for better spacing */
+}
+
+.search-bar select {
+    padding: 10px;
+    margin: 5px; /* Margin for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #333;
+    color: #fdcc04;
+    border-radius: 20px;
+}

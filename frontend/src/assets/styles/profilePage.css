@@ -1,0 +1,95 @@
+/* frontend/src/assets/styles/profilePage.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+/* Profile Page Styles */
+.profile-page {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details > div {
+    margin-bottom: 40px;
+}
+
+.profile-details img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-details label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.profile-details input, 
+.profile-details select,
+.profile-details .creatable-select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.profile-details button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-details button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific Styles for CreatableSelect */
+.creatable-select .react-select__control {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-details img {
+        max-width: 100%;
+    }
+
+    .profile-details {
+        padding: 10px;
+    }
+}

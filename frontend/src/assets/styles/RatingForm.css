@@ -1,0 +1,35 @@
+.rating-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.rating-form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.rating-form input[type="number"],
+.rating-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.rating-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.rating-form button:hover {
+    background-color: #45a049;
+}

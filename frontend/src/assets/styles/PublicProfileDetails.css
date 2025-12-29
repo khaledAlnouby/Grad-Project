@@ -1,0 +1,197 @@
+/* frontend/src/assets/styles/PublicProfileDetails.css */
+.signup-content, .signin-content, .social-login, .socials {
+  display: flex;
+  display: -webkit-flex; }
+  
+.signup {
+  margin-bottom: 150px; }
+  
+.signup-content {
+  padding: 75px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup-form, .signup-image, .signin-form, .signin-image {
+  width: 50%;
+  overflow: hidden; }
+  
+.signup-form {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px;
+  flex: 2; /* Make this take up more space */
+
+}
+  .signup-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    /* box-sizing: border-box; */
+    padding: 0 30px; }
+
+  .signup-form, .signup-image, .signin-form, .signin-image {
+    width: auto; }
+
+/* Ensure no overflow is cutting off the dropdown */
+.signup-form {
+    overflow: visible;
+}
+
+.form-title {
+  margin-bottom: 33px; }
+  
+@media screen and (max-width: 768px) {
+  .signup-content, .signin-content {
+    flex-direction: column;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -o-flex-direction: column;
+    -ms-flex-direction: column;
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center; }
+
+  .signup-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    /* box-sizing: border-box; */
+    padding: 0 30px; }
+
+  .signin-image {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    order: 2;
+    -moz-order: 2;
+    -webkit-order: 2;
+    -o-order: 2;
+    -ms-order: 2; }
+
+  .signup-form, .signup-image, .signin-form, .signin-image {
+    width: auto; }
+
+  .social-login {
+    justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center; }
+
+  .form-button {
+    text-align: center; }
+
+  .signin-form {
+    order: 1;
+    -moz-order: 1;
+    -webkit-order: 1;
+    -o-order: 1;
+    -ms-order: 1;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0 30px; }
+
+  .form-title {
+    text-align: center; } }
+
+.register-form {
+  width: 100%; }
+
+.form-row .form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 25px;
+  overflow: hidden;
+  margin-left: 0;
+}
+.form-group label {
+  margin-bottom: 8px; /* Add margin to separate label from input */
+  position: static; /* Make label static */
+  transform: none; /* Remove transform */
+}
+  
+  
+  .form-group:last-child {
+    margin-bottom: 0px; }
+    
+
+.skills-list label {
+  margin-bottom: 8px; /* Add margin to separate label from input */
+  position: static; /* Make label static */
+  transform: none; /* Remove transform */
+}
+  
+.container {
+  width: 100%;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px; }
+  
+@media screen and (max-width: 1200px) {
+  .container {
+    width: calc( 100% - 30px);
+    max-width: 100%; } }
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px; } }
+    
+
+
+.profile-photo-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: -75px;
+    cursor: pointer;
+}
+
+.profile-photo-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid black;
+    background-color: #ccc;
+}
+
+.profile-photo-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    
+.cover-photo-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border: 5px solid white;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.cover-photo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

@@ -1,0 +1,59 @@
+/* frontend/src/pages/Messages.css */
+.messages-container {
+    display: flex;
+    height: 100vh;
+}
+
+.conversations-list {
+    width: 30%;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.conversation {
+    width: 70%;
+    padding: 10px;
+}
+
+.no-conversation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #aaa;
+    font-size: 1.2em;
+}
+
+.messages {
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.message {
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.message-form {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.message-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.message-form button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #fdcc04;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

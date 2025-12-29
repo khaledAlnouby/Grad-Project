@@ -1,0 +1,119 @@
+/* frontend/src/assets/styles/ProfileCard.css */
+.profile-card {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.profile-card-small-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-card-photo-container {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+
+.profile-card-online-status-indicator {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card-online-status-indicator::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.profile-card-online-status-indicator.profile-card-online::after {
+    background-color: #4c9e04;
+}
+
+.profile-card-online-status-indicator.profile-card-offline::after {
+    background-color: #9E9E9E;
+}
+
+.profile-card-details {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.profile-card-details h3 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-card-details .profile-card-gender,
+.profile-card-details .profile-card-location {
+    margin: 5px 0;
+    color: #777;
+}
+
+.profile-card-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.profile-card-skill {
+    background-color: #333;
+    color: #fdcc04;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.profile-card-icon-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65px; /* Adjust as necessary */
+}
+
+.profile-card-request-icon, .profile-card-user-icon {
+    font-size: 2.2em;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.profile-card-request-icon:hover, .profile-card-user-icon:hover {
+    color: #fdcc04;
+}
+
+.profile-card-average-rating {
+    margin-top: 10px;
+    color: #777;
+    display: flex;
+    align-items: center;
+}

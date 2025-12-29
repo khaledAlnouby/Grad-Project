@@ -1,0 +1,64 @@
+/* frontend/src/assets/styles/RequestForm.css */
+.request-form {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.request-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    font-size: 1em;
+    color: #333;
+    appearance: none; 
+}
+
+.request-form select:focus {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.request-form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-size: 1em;
+    color: #333;
+}
+
+.request-form textarea:focus {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.request-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.request-form button:hover {
+    color: #fdcc04;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.request-form p {
+    margin-top: 10px;
+    color: green;
+    font-size: 1em;
+}
